@@ -1,0 +1,17 @@
+{
+  "name": "2someone-game-bot",
+  "version": "1.0.0",
+  "description": "2SOMEone 游戏资讯机器人 —— 定时拉取游戏媒体 RSS 并发布为泡泡动态。",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node index.mjs",
+    "dry-run": "DRY_RUN=1 node index.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
